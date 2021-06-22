@@ -18,7 +18,7 @@ public class ByeController {
     @GetMapping("/bye")
     public String showBye() {
         byeService.send("1");
-        return String.format("Всего доброго! Вы здоровались %d количество раз",
-                            byeService.getHelloCount());
+        return String.format("Всего доброго! Вы здоровались %s количество раз",
+                            byeService.getCounter());
     }
 }

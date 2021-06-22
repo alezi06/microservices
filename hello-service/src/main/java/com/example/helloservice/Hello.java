@@ -1,4 +1,4 @@
-package com.example.byeservice;
+package com.example.helloservice;
 
 import javax.persistence.*;
 
